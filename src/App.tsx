@@ -19,7 +19,7 @@ function App() {
         </span>
       </div>
       <span className="text-[34px] text-gray-600 mb-8">承恩家妤婚禮</span>
-      <span className="text-3xl text-gray-600 mb-12">座位查詢系統</span>
+      <span className="text-3xl text-gray-600 mb-12">報到及座位查詢系統</span>
       <input
         className="shadow border rounded-xl min-w-[300px] w-1/3 py-3 px-3
         text-2xl text-gray-700 text-center"
@@ -34,21 +34,20 @@ function App() {
           );
         }}
       />
-      <span className="text-3xl text-gray-600 m-12">
-        您的位子 : {name !== ""
+      <span className="text-[28px] text-gray-600 m-12">
+        報到及座位分區 :
+      </span>
+      <span className="text-[28px] text-gray-600">
+        {name !== ""
           ? name in seat
             ? seat[name as keyof typeof seat]
-            : (
-              <span className="text-2xl">
-                {"\n"}找不到您的名字{String.fromCodePoint(parseInt("1F616", 16))}
-              </span>
-            )
+            : "找不到您的名字" + String.fromCodePoint(parseInt("1F616", 16))
           : "..."}
       </span>
       <a
         className="fixed text-sm text-gray-300 bottom-1 right-2"
         style={{
-          color: "#D2BD96"
+          color: "#D2BD96",
         }}
         href="https://github.com/WesleyCh3n"
         target="_blank"
