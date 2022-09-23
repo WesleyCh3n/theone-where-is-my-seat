@@ -10,7 +10,7 @@ function App() {
       style={{ backgroundColor: "#faf0e6" }}
     >
       <div className="mb-4">
-        <span className="text-2xl mr-2" style={{ color: "#A57A5A" }}>then One</span>
+        <span className="text-2xl mr-2" style={{ color: "#A57A5A" }}>the One</span>
         <span className="text-lg" style={{ color: "#C8AE7E" }}>- Save The Day -</span>
       </div>
       <span className="text-5xl text-gray-600 mb-4">承恩家妤婚禮</span>
