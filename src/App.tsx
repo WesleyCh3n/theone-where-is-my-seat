@@ -6,7 +6,8 @@ function App() {
 
   return (
     <div
-      className="h-screen flex flex-col justify-center items-center p-2"
+      className="h-screen flex flex-col justify-center items-center p-2
+      touch-none"
       style={{ backgroundColor: "#faf0e6" }}
     >
       <div className="mb-8">
